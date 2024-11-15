@@ -3,7 +3,7 @@ warnings.filterwarnings("ignore")
 
 import pandas as pd
 import numpy as np
-import requesrs
+import requests
 import pickle
 
 model_url="https://raw.githubusercontent.com/Manaswini-C/Machinelearning/master/model_pickle2"
