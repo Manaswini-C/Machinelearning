@@ -11,8 +11,7 @@ model_url = 'https://raw.githubusercontent.com/Manaswini-C/Machine-Learning/mast
 response = requests.get(model_url, stram = True)
 response.raise_for_status()
 
-    model = pickle.load(response.content)
-
+model = pickle.load(response.content)
 
 def predict_house_price(area,bedrooms,age):
     input_data =[[area,bedrooms,age]]
