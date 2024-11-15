@@ -1,6 +1,6 @@
 import pickle
 
-with open('model_pickel2",'rb') as f:
+with open('model_pickle2','rb') as f:
     model=pickel.load(f)
 
 def predict_house_price(area,bedrooms,age):
